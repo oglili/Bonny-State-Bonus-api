@@ -8,14 +8,6 @@
 
 </p>
 
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Usage](#usage)
-* [Illustrations](#illustrations)
-* [Link](#illustrations)
-* [Contributing](#contributing)
-
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
