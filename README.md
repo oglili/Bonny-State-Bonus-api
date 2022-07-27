@@ -3,13 +3,13 @@
   <h3 align="center">BONNY - State Bonus API</h3>
 
   <p align="center">
-   It is a simple REST API created to simplify the life of Italian citizens by making the services and state bonuses of citizens more accessible and understandable.
+   This is a JSON RESTful API to implement the dashboard of a startup called Bonny created to simplify the life of Italian citizens by making the services and state bonuses of citizens more accessible and understandable.
   </p>
 
 </p>
 
 <details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <summary><h2 style="display: inline-block">Table of Contoents</h2></summary>
   <ol>
     <li>
       <a href="#general-info">General Info</a>
