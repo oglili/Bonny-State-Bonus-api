@@ -30,6 +30,7 @@
         <li><a href="#tests">Tests</a></li>
       </ul>
     </li>
+    <li><a href="#tables-and-browser-views">Tables and Browser Views</a></li>    
     <li><a href="#license">License</a></li>
     <li><a href="#link">Link</a></li>
   </ol>
@@ -86,12 +87,16 @@ To run this api application a Web Server is required such as Apache. An integrat
 
 - Postman can be used to test the REST API.
 
-<p>Tables and Browser Views:</p>
+## Tables and Browser Views
 
 <img src = "assets/images/bonus-type-table.jpg" alt = "bonus-type-table">
+<br>
 <img src = "assets/images/bonus-service-table.jpg" alt = "bonus-service-table">
+<br>
 <img src = "assets/images/type-api.jpg" alt = "type-api">
+<br>
 <img src = "assets/images/service-api.jpg" alt = "service-api">
+<br>
 
 ## License
 
