@@ -9,7 +9,7 @@
 </p>
 
 <details open="open">
-  <summary><h2 style="display: inline-block">Table of Contoents</h2></summary>
+  <summary><h2 style="display: inline-block">Table of Content</h2></summary>
   <ol>
     <li>
       <a href="#general-info">General Info</a>
@@ -31,12 +31,12 @@
       </ul>
     </li>
     <li><a href="#license">License</a></li>
-    <li><a href="#links-contacts">Links & Contacts</a></li>
+    <li><a href="#link">Link</a></li>
   </ol>
 </details>
 
 ## General Info
-This is a REST API developed with php and MySQL with which users can find information regarding the defferent Italian state bonuses and related types.
+This is a REST API developed with php and MySQL with which can be used to develop the dashboard of the Bonny startup.
 
 ### Built With
 
@@ -47,13 +47,13 @@ This is a REST API developed with php and MySQL with which users can find inform
 
 ### Prerequisites
 
-To run this api application a Web Server is required. An integrated solution to run local web server, php and MySQL all in once, such as, [XAMPP] is all you need.
+To run this api application a Web Server is required such as Apache. An integrated solution to run local web server can be used [XAMPP] and the likes.
 
 ### Usage
 
 1. Clone the repository or download the zip file.  
 
-2. Open the folder in your editor and create a config.php file.
+2. Open the folder in your editor and create a config.php file raplacing the required data.
 
    ```sh
    return [
@@ -74,7 +74,7 @@ To run this api application a Web Server is required. An integrated solution to 
 
 - `GET /api/service/read.php` - Returns all data relating to state bonuses services and can be filtered using category-types and date-range.   
 - `GET /api/type/read.php` - Returns all data relating to state bonuses types.
-- `GET /api/type/read.php` - Returns the total number of minutes saved for using the service.
+- `GET /api/type/saved_minutes.php` - Returns the total number of minutes saved for using the service.
 - `POST /api/service/create.php` - Creates a new service of a bonus type.
 - `POST /api/type/create.php` - Creates a new bonus type.
 - `PUT /api/service/update.php` - Updates a service.
@@ -86,10 +86,17 @@ To run this api application a Web Server is required. An integrated solution to 
 
 - Postman can be used to test the REST API.
 
+<p>Tables and Browser Views:</p>
+
+<img src = "assets/images/bonus-type-table.jpg" alt = "bonus-type-table">
+<img src = "assets/images/bonus-service-table.jpg" alt = "bonus-service-table">
+<img src = "assets/images/type-api.jpg" alt = "type-api">
+<img src = "assets/images/service-api.jpg" alt = "service-api">
+
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License.
 
-## Links
+## Link
 
 Project Repository: [Bonny-State-Bonus-api](https://github.com/oglili/Bonny-State-Bonus-api)
